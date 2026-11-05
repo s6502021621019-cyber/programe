@@ -1,32 +1,7 @@
 #include <stdio.h>
 
-int main()
-{   float b, h;
-    int inputResult;
-    int character;
-    float A;
-    printf("Area of Triangle \n");
-    do {
-        printf("Base = ");
-        inputResult = scanf("%f", &b);
-        if (inputResult != 1) {
-            printf("Please enter numbers only.\n");
-            while ((character = getchar()) != '\n' && character != EOF) {
-            }
-        }
-    } while (inputResult != 1);
-
-    do {
-        printf("Height = ");
-        inputResult = scanf("%f", &h);
-        if (inputResult != 1) {
-            printf("Please enter numbers only.\n");
-            while ((character = getchar()) != '\n' && character != EOF) {
-            }
-        }
-    } while (inputResult != 1);
-     A = 0.5f * b * h;
-    printf("Area = %3.2f \n", A);
-
+int main() 
+{
+    printf("Hello, World!\n");
     return 0;
 }
